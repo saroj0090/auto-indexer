@@ -7,14 +7,14 @@ import asyncio
 import pymongo
 import os
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("28057612"))
+API_HASH = os.getenv("95295dca0ca9f41855ec0cabe9b440ed")
+BOT_TOKEN = os.getenv("7715353540:AAG9tE3FFxy2d8mbcmYn-CNgukwTPPafs3A")
 
 #Optional
 MONGO_URI = os.getenv("MONGO_URI")
-SOURCE_CHANNELS = list(map(int, os.getenv("SOURCE_CHANNELS").split()))
-TARGET_CHANNEL = int(os.getenv("TARGET_CHANNEL"))
+SOURCE_CHANNELS = list(map(int, os.getenv("-1002435736305").split()))
+TARGET_CHANNEL = int(os.getenv("-1002636535986"))
 
 client = pymongo.MongoClient(MONGO_URI)
 db = client["AutoIndexer"]
