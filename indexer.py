@@ -9,8 +9,8 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # space-separated list of source channels  
-SOURCE_CHANNELS = [int(x) for x in os.getenv("-1002435736305").split()]
-TARGET_CHANNEL = int(os.getenv("-1002636535986"))
+SOURCE_CHANNELS = [int(x) for x in os.getenv("SOURCE_CHANNELS").split()]
+TARGET_CHANNEL = int(os.getenv("TARGET_CHANNEL"))
 
 app = Client(
     "forward-bot",
