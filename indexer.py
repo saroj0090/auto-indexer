@@ -11,6 +11,7 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
+#Optional
 MONGO_URI = os.getenv("MONGO_URI")
 SOURCE_CHANNELS = list(map(int, os.getenv("SOURCE_CHANNELS").split()))
 TARGET_CHANNEL = int(os.getenv("TARGET_CHANNEL"))
