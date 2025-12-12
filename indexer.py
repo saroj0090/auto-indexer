@@ -5,8 +5,8 @@ import os
 from pyrogram import Client, filters
 
 API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("95295dca0ca9f41855ec0cabe9b440ed")
-BOT_TOKEN = os.getenv("7715353540:AAG9tE3FFxy2d8mbcmYn-CNgukwTPPafs3A")
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # space-separated list of source channels  
 SOURCE_CHANNELS = [int(x) for x in os.getenv("-1002435736305").split()]
